@@ -1,0 +1,38 @@
+@media screen and (max-width:1150px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-img{
+        text-align: center;
+    }
+    .home-article img{
+        width: 68vw;
+    }
+    .year-box{
+        top: 23px;
+        left: 60vw;
+        font-size: 10px;
+        display: flex;
+    }
+    .year-box div{
+        padding: 0px 5px;
+        margin: 0px;
+    }
+    .form-input{
+        width: 50%;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
